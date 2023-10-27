@@ -81,17 +81,20 @@ body {
   align-items: center;
   /* justify-content: center; */
 }
+
+#frame12 p {
+  font: normal 600 24px / 38.4px "Inter", sans-serif;
+}
 #circle {
   /* background: url(./assets/percentagem70.svg); */
   width: 197px;
   height: 197px;
 }
-#circle button {
+#percentagem70 {
   background: url(./assets/percentagem70.svg);
   width: 197px;
   height: 197px;
   border: none;
-
 }
 #falas {
   margin-top: -65%;
@@ -99,12 +102,49 @@ body {
   /* justify-content: center; */
   text-align: center;
 }
-#falas p{
+#falas p {
   font: normal 600 34px / normal "Inter", sans-serif;
   color: #fff;
 }
-footer{
+footer {
   display: flex;
   gap: 20px;
   align-items: flex-start;
+}
+/*Rodape*/
+footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+#parte1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#parte1Conteudo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#frame13 {
+  display: flex;
+  padding: 29px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+
+  border-radius: 16px;
+  background: #363447;
+  box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}
+#frame13 p {
+  font: normal 600 24px / 38.4px "Inter", sans-serif;
+}
+#percentagem90{
+  background: url(./assets/percentagem90.svg);
+  width: 197px;
+  height: 197px;
+  border: none;
 }
