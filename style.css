@@ -9,7 +9,9 @@ body {
   font-family: "Inter", sans-serif;
   color: white;
 }
-#container {
+
+/* Renomeando as div's*/
+main{
   display: flex;
   flex-direction: column;
   gap: 59px;
@@ -18,75 +20,82 @@ body {
   padding: 112px 123px 111px 123px;
   border-radius: 16px;
 }
-#frame1 {
+#tabela{
+  /*Manipulando as exibicao*/
   display: flex;
   gap: 32px;
   /* justify-content: center; */
   align-items: flex-start;
 }
-#frame11 {
+#coluna1{
+  /*Manipulando as diminsoes*/
   padding: 29px 42px;
   width: 296px;
   height: 379px;
 
+  /*Manipulando as exibicao*/
   display: flex;
   flex-direction: column;
   gap: 32px;
   align-items: center;
 
+  /*Manipulando as bordas e sombras*/
   border-radius: 16px;
   background: #363447;
   box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
 }
-
-#frame111 p {
+#textoTop{
   font: normal 600 24px / 38.4px "Inter", sans-serif;
 }
-#frame112 {
+#colunaCenter{
+  /*Manipulando as exibicao*/
   display: flex;
   flex-direction: column;
   gap: 10px;
-
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
+  /*Faz o preenchimento da div*/
   flex: 1 0 0;
 }
-#frame112 img {
+
+/*Manipulando o tamanho da imagem*/
+#coluna1Center img{
   width: 54px;
   height: 54px;
 }
-#frame112 p {
+
+/*Manipulando O texto central*/
+#colunaCenter p{
   font: normal 600 24px / 38.4px "Inter", sans-serif;
   color: #81fbb8;
 }
-#frame113 {
+footer{
   display: flex;
-  gap: 30px;
+  gap: 20px;
+  align-items: flex-start;
 }
-
-#frame12 {
+footer p{
+  font: normal 500 14px /  22.4px "Inter", sans-serif;
+}
+#outro{
+  font: normal 400 14px /  22.4px "Inter", sans-serif;
+}
+#coluna2{
   display: flex;
   flex-direction: column;
   gap: 32px;
+  align-items: center;
 
   padding: 29px 42px;
-  width: 346px;
+  width: 351px;
   height: 379px;
 
   border-radius: 16px;
   background: #363447;
   box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
-
-  align-items: center;
-  /* justify-content: center; */
-}
-
-#frame12 p {
-  font: normal 600 24px / 38.4px "Inter", sans-serif;
 }
 #circle {
-  /* background: url(./assets/percentagem70.svg); */
   width: 197px;
   height: 197px;
 }
@@ -96,26 +105,13 @@ body {
   height: 197px;
   border: none;
 }
-#falas {
+#textoCenter{
   margin-top: -65%;
   align-items: center;
-  /* justify-content: center; */
   text-align: center;
 }
-#falas p {
+#textoCenter p{
   font: normal 600 34px / normal "Inter", sans-serif;
-  color: #fff;
-}
-footer {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-}
-/*Rodape*/
-footer {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
 }
 #parte1 {
   display: flex;
@@ -127,7 +123,10 @@ footer {
   align-items: center;
   gap: 8px;
 }
-#frame13 {
+#parte1Conteudo p{
+  font: normal 500 14px /  22.4px "Inter", sans-serif;
+}
+#coluna3{
   display: flex;
   padding: 29px 48px;
   flex-direction: column;
@@ -135,12 +134,12 @@ footer {
   gap: 32px;
   flex: 1 0 0;
 
+  width: 409px;
+  height: 379px;
+
   border-radius: 16px;
   background: #363447;
   box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
-}
-#frame13 p {
-  font: normal 600 24px / 38.4px "Inter", sans-serif;
 }
 #percentagem90{
   background: url(./assets/percentagem90.svg);
