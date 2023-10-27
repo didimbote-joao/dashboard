@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #292738;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+  align-items: center;
+  justify-content: center;
+  padding: 112px 123px 111px 123px;
+  border-radius: 16px;
+}
+#frame1 {
+  display: flex;
+  gap: 32px;
+  /* justify-content: center; */
+  align-items: flex-start;
+}
+#frame11 {
+  padding: 29px 42px;
+  width: 296px;
+  height: 379px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+
+  border-radius: 16px;
+  background: #363447;
+  box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}
+
+#frame111 p {
+  font: normal 600 24px / 38.4px "Inter", sans-serif;
+}
+#frame112 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  justify-content: center;
+  align-items: center;
+
+  flex: 1 0 0;
+}
+#frame112 img {
+  width: 54px;
+  height: 54px;
+}
+#frame112 p {
+  font: normal 600 24px / 38.4px "Inter", sans-serif;
+  color: #81fbb8;
+}
+#frame113 {
+  display: flex;
+  gap: 30px;
+}
+
+#frame12 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  padding: 29px 42px;
+  width: 346px;
+  height: 379px;
+
+  border-radius: 16px;
+  background: #363447;
+  box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
+
+  align-items: center;
+  /* justify-content: center; */
+}
+#circle {
+  /* background: url(./assets/percentagem70.svg); */
+  width: 197px;
+  height: 197px;
+}
+#circle button {
+  background: url(./assets/percentagem70.svg);
+  width: 197px;
+  height: 197px;
+  border: none;
+
+}
+#falas {
+  margin-top: -65%;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+}
+#falas p{
+  font: normal 600 34px / normal "Inter", sans-serif;
+  color: #fff;
+}
+footer{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
